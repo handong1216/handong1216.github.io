@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>学习 on Hugo Theme Yuki</title>
+    <link>https://handong1216.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 学习 on Hugo Theme Yuki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Dec 2019 19:51:20 +0800</lastBuildDate>
+    
+	<atom:link href="https://handong1216.github.io/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>数据结构笔记记录</title>
+      <link>https://handong1216.github.io/post/datastructure0/</link>
+      <pubDate>Sat, 28 Dec 2019 23:23:27 +0800</pubDate>
+      
+      <guid>https://handong1216.github.io/post/datastructure0/</guid>
+      <description>从零开始数据结构进行中。。。</description>
+    </item>
+    
+    <item>
+      <title>线性结构和非线性结构</title>
+      <link>https://handong1216.github.io/post/datastructure01/</link>
+      <pubDate>Sat, 28 Dec 2019 23:23:27 +0800</pubDate>
+      
+      <guid>https://handong1216.github.io/post/datastructure01/</guid>
+      <description>数据结构包括两个部分：线性结构、非线性结构。
+线性结构  1.线性结构是最常用的数据结构，其特点是数据元素之间存在一对一的线性关系。
+2.线性结构有两种不同的存储结构，即顺序存储结构和链式存储结构。
+顺序存储的线性表称为顺序表，顺序表中的存储元素（地址）是连续的。
+链式存储的线性表称为链表，链表中的存储元素（地址）不一定是连续的，元素节点中存放数据元素以及相邻元素的地址信息。
+3.线性结构常见的有：数组、队列、链表、栈。
+非线性结构  1.非线性结构包括：二维数组、多维数组、广义表、树结构、图结构。</description>
+    </item>
+    
+    <item>
+      <title>稀疏数组</title>
+      <link>https://handong1216.github.io/post/datastructure02/</link>
+      <pubDate>Sun, 29 Dec 2019 18:55:20 +0800</pubDate>
+      
+      <guid>https://handong1216.github.io/post/datastructure02/</guid>
+      <description>基本介绍  1.使用场景：
+当一个数组中大部分元素为空或者为同一个值时，可以使用稀疏数组来保存该数组。
+2、处理方法：
+记录数组一共有几行几列，有多少个不同的值。
+把具有不同值的元素的行、列、值分别记录在一个小规模的数组中，从而缩小程序的规模。
+示例  使用棋盘来表示二维数组，1表示黑子，2表示蓝子
+原始二维数组： 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 转换为稀疏数组：稀疏数组的第一列为行（row），第二列为列（col），第三列为值（val） 9 11 2 # 第一行记录总值：9表示共有9行，11表示共有11列，2表示共有2个不同的值 1 2 1 # 第二行第三列的值为1 2 3 2 # 第三行第四列的值为2 </description>
+    </item>
+    
+    <item>
+      <title>队列</title>
+      <link>https://handong1216.github.io/post/datastructure03/</link>
+      <pubDate>Sun, 29 Dec 2019 19:51:20 +0800</pubDate>
+      
+      <guid>https://handong1216.github.io/post/datastructure03/</guid>
+      <description>基本介绍  1.队列是一个有序列表，可以用数组或是链表来实现。
+2.遵循先进先出原则。</description>
+    </item>
+    
+  </channel>
+</rss>
